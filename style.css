@@ -1,0 +1,68 @@
+*{
+    text-decoration: none;
+    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+
+.centrar{
+    width: 80%;
+    margin: auto;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgb(59, 59, 63);
+    max-width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.listado{
+    width: 50%;
+    background-color: rgb(59, 59, 63);
+    color: white;
+    margin: 20px auto;
+}
+
+ul{
+    padding: 20px;
+    margin: 50px 0;
+}
+.escribir{
+    width: 50%;
+    background-color: rgb(59, 59, 63);
+    margin: auto;
+    height: 10vw;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 50px;
+    border-radius: 50%;
+}
+
+form {
+    text-align: center;
+    margin-left: 20px;
+}
+
+input[type="text"] {
+    text-align: center;
+    height: 60px;
+    border: none;
+    background: transparent;
+    font-weight: 200;
+    width: 40%;
+    color: white;
+}

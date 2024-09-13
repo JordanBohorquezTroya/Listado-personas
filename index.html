@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="centrar">
+        <h1 class="titulo">Listado de personas</h1>
+        <div class="listado">
+            <ul id="persona">
+            </ul>
+        </div>
+
+        <div class="escribir">
+            <div class="boton">
+                <button style='cursor: pointer' onclick="agregarPersona()">+</button>
+            </div>
+        
+            <form id="forma">
+                <input type="text" id="nombre" placeholder="Nombre">
+                <input type="text" id="apellido" placeholder="Apellido">
+            </form>
+        
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
